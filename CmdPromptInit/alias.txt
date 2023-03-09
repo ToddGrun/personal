@@ -1,0 +1,13 @@
+up      pushd ..\$*
+up1     pushd ..\$*
+up2     pushd ..\..\$*
+up3     pushd ..\..\..\$*
+up4     pushd ..\..\..\..\$*
+up5     pushd ..\..\..\..\..\$*
+up6     pushd ..\..\..\..\..\..\$*
+up7     pushd ..\..\..\..\..\..\..\$*
+up8     pushd ..\..\..\..\..\..\..\..\$*
+up9     pushd ..\..\..\..\..\..\..\..\..\$*
+
+dev     "devenv.exe" $*
+testvs  "devenv.exe" $*
